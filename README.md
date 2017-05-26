@@ -1,5 +1,5 @@
 # ground-syntax theme
 
-A short description of your theme.
+Theme inspired on mongodb.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![Image of ground-syntax theme](https://scontent.fmgf1-1.fna.fbcdn.net/v/t31.0-8/18671456_1302903916474948_6648610967747590060_o.jpg?oh=22593297d55811019ff98af01fb8d46b&oe=59A9B7A1)
