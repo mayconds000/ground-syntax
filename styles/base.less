@@ -8,9 +8,11 @@ atom-text-editor, atom-text-editor .gutter {
 atom-text-editor.is-focused .cursor {
   border-color: @lace;
 }
+//teste
+
 
 atom-text-editor.is-focused .selection .region {
-  background-color: @dark-gray;
+  background-color: @light-gray;
 }
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
@@ -78,11 +80,11 @@ atom-text-editor .gutter .line-number.git-line-added {
 }
 
 .syntax--keyword {
-  color: @pink;
+  color: @red;
 }
 
 .syntax--storage {
-  color: @pink;
+  color: @red;
 }
 
 .syntax--storage.syntax--type {
@@ -92,7 +94,8 @@ atom-text-editor .gutter .line-number.git-line-added {
 
 .syntax--entity.syntax--name.syntax--class {
   text-decoration: underline;
-  color: @green;
+  color: @light-gray;
+
 }
 
 .syntax--entity.syntax--other.syntax--inherited-class {
@@ -141,7 +144,7 @@ atom-text-editor .gutter .line-number.git-line-added {
 
 .syntax--invalid.syntax--deprecated {
   color: @lace;
-  background-color: @purple;
+  background-color: @orange;
 }
 
 .syntax--meta.syntax--structure.syntax--dictionary.syntax--json .syntax--string.syntax--quoted.syntax--double.syntax--json {
@@ -285,18 +288,19 @@ atom-text-editor .gutter .line-number.git-line-added {
 }
 
 atom-text-editor .highlight.find-result .region {
-  background: lighten(@very-dark-gray, 3%);
+  background: lighten(@very-dark-gray, 10%);
   z-index: -1000;
 }
 
 atom-text-editor .highlight.current-result .region,
 atom-text-editor .highlight.current-result ~ .highlight.selection .region {
-  background: lighten(@dark-gray, 20%); // to distinguish from the other results
+  background: @soft-cyan; // to distinguish from the other results
   z-index: -1000;
 }
 
 atom-text-editor .bracket-matcher .region {
-  border-bottom: 1px dotted @green;
+  border: 1px solid @green;
+  border-radius:  1px;
   z-index: 100;
 }
 
