@@ -2,4 +2,4 @@
 
 Theme inspired on mongodb.
 
-![Image of ground-syntax theme](./ground-syntax.jpg)
+![Image of ground-syntax theme](https://raw.githubusercontent.com/mayconds000/ground-syntax/master/ground-syntax.jpg)
